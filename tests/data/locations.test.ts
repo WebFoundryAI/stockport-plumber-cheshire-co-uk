@@ -23,14 +23,14 @@ describe('Locations Data', () => {
       }
     });
 
-    it('every location has latitude within Greater Manchester bounds', () => {
+    it('every location has latitude within service area bounds', () => {
       for (const loc of LOCATIONS) {
         expect(loc.latitude).toBeGreaterThan(53.3);
         expect(loc.latitude).toBeLessThan(53.7);
       }
     });
 
-    it('every location has longitude within Greater Manchester bounds', () => {
+    it('every location has longitude within service area bounds', () => {
       for (const loc of LOCATIONS) {
         expect(loc.longitude).toBeGreaterThan(-2.5);
         expect(loc.longitude).toBeLessThan(-2.0);
@@ -45,8 +45,8 @@ describe('Locations Data', () => {
   });
 
   describe('PRIMARY_LOCATION', () => {
-    it('is "manchester"', () => {
-      expect(PRIMARY_LOCATION.slug).toBe('manchester');
+    it('is "stockport"', () => {
+      expect(PRIMARY_LOCATION.slug).toBe('stockport');
     });
 
     it('is first in LOCATIONS array', () => {
@@ -81,6 +81,12 @@ describe('Locations Data', () => {
   });
 
   describe('getLocationBySlug', () => {
+    it('returns correct location for "stockport"', () => {
+      const loc = getLocationBySlug('stockport');
+      expect(loc).toBeDefined();
+      expect(loc!.name).toBe('Stockport');
+    });
+
     it('returns correct location for "manchester"', () => {
       const loc = getLocationBySlug('manchester');
       expect(loc).toBeDefined();

@@ -22,7 +22,7 @@ const CUSTOMER_REVIEWS = [
     author: "Sarah Thompson",
     datePublished: "2024-10-28",
     reviewRating: 5,
-    reviewBody: "Used Blocked Drains Manchester for a CCTV survey after repeated drainage issues. They identified the root cause and provided a clear report with options. Very thorough and reasonably priced."
+    reviewBody: "Used Stockport Plumber for a CCTV survey after repeated drainage issues. They identified the root cause and provided a clear report with options. Very thorough and reasonably priced."
   },
   {
     author: "Michael Davies",

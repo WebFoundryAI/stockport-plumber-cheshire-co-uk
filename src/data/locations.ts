@@ -8,28 +8,28 @@ export interface Location {
 }
 
 export const PRIMARY_LOCATION: Location = {
-  slug: "manchester",
-  name: "Manchester",
-  countyOrRegion: "Greater Manchester",
-  latitude: 53.4808,
-  longitude: -2.2426,
+  slug: "stockport",
+  name: "Stockport",
+  countyOrRegion: "Cheshire",
+  latitude: 53.4106,
+  longitude: -2.1575,
 };
 
 export const LOCATIONS: Location[] = [
   PRIMARY_LOCATION,
+  {
+    slug: "manchester",
+    name: "Manchester",
+    countyOrRegion: "Greater Manchester",
+    latitude: 53.4808,
+    longitude: -2.2426,
+  },
   {
     slug: "salford",
     name: "Salford",
     countyOrRegion: "Greater Manchester",
     latitude: 53.4830,
     longitude: -2.2931,
-  },
-  {
-    slug: "stockport",
-    name: "Stockport",
-    countyOrRegion: "Greater Manchester",
-    latitude: 53.4106,
-    longitude: -2.1575,
   },
   {
     slug: "altrincham",
