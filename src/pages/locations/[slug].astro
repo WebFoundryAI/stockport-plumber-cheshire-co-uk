@@ -17,8 +17,8 @@ export async function getStaticPaths() {
 const location = getLocationBySlug(Astro.params.slug || '');
 if (!location) return Astro.redirect('/locations/');
 
-const title = `Blocked Drains ${location.name} | Same-Day | No Call-Out Fee`;
-const description = `Blocked drain in ${location.name}? Same-day response, no call-out fee, fixed pricing. Local drainage engineers available 24/7. Call ${BRAND.phoneFormatted}.`;
+const title = `Plumber in ${location.name} | Same-Day | No Call-Out Fee`;
+const description = `Need a plumber in ${location.name}? Same-day response, no call-out fee, fixed pricing. Local plumbing and drainage engineers available 24/7. Call ${BRAND.phoneFormatted}.`;
 const faqs = getLocationFAQs(location.name);
 const hubContent = getLocationHubContent(location.slug);
 const recentPosts = getRecentPosts(3);
@@ -35,7 +35,7 @@ const pageSchema = [
 
 <BaseLayout title={title} description={description} canonical={`/locations/${location.slug}/`} schema={pageSchema} noindex={!!location.noindex}>
   <HeroWithLeadForm
-    title={`Blocked Drains in ${location.name}`}
+    title={`Plumbing & Drainage in ${location.name}`}
     description={`Local engineers available across ${location.name} and surrounding areas for urgent and planned drainage work.`}
     formId={`location-${location.slug}-lead-form`}
     source={`location:${location.slug}`}

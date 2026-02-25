@@ -1,20 +1,20 @@
 export const BRAND = {
-  brandName: "Blocked Drains Manchester",
-  domain: "manchesterblockeddrain.co.uk",
-  primaryLocation: "Manchester",
-  serviceAreaLabel: "Manchester and Greater Manchester",
-  phone: "03338802296",
-  phoneFormatted: "0333 880 2296",
-  email: "contactus@manchesterblockeddrain.co.uk",
-  addressLine1: "Bartle House",
-  addressLine2: "Oxford Court, Manchester",
-  postcode: "M2 3WQ",
-  tagline: "Fast, Reliable Drainage Solutions",
+  brandName: "Stockport Plumber",
+  domain: "stockport-plumber-cheshire.co.uk",
+  primaryLocation: "Stockport",
+  serviceAreaLabel: "Stockport and Cheshire",
+  phone: "01613838377",
+  phoneFormatted: "0161 383 8377",
+  email: "contactus@stockport-plumber-cheshire.co.uk",
+  addressLine1: "70 Brinksway",
+  addressLine2: "Stockport",
+  postcode: "SK3 0BY",
+  tagline: "Fast, Reliable Plumbing & Drainage Solutions",
   emergencyAvailable: true,
   socialProfiles: [
-    "https://www.facebook.com/BlockedDrainsManchester",
-    "https://twitter.com/DrainManchester",
-    "https://www.instagram.com/blockeddrains_manchester",
-    "https://www.linkedin.com/company/blocked-drains-manchester"
+    "https://www.facebook.com/StockportPlumber",
+    "https://twitter.com/StockportPlumber",
+    "https://www.instagram.com/stockport_plumber",
+    "https://www.linkedin.com/company/stockport-plumber"
   ]
 };
