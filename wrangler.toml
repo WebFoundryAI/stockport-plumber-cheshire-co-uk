@@ -37,7 +37,7 @@ compatibility_date = "2024-12-20"
 [[d1_databases]]
 binding = "DB"
 database_name = "stockport-plumber-leads"
-database_id = "" # TODO: Create D1 database and add ID here
+database_id = "a7b4c73b-87cf-4a31-b581-573858082b1c"
 
 # Build Configuration
 [build]
