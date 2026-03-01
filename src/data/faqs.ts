@@ -9,31 +9,31 @@ export interface FAQ {
 export const GENERIC_FAQS: FAQ[] = [
   {
     question: "Do you charge a call-out fee?",
-    answer: `No, ${BRAND.brandName} does not charge any call-out fees. You only pay for the work completed.`,
+    answer: `No, ${BRAND.brandName} never charges a call-out fee. You only pay for the work we actually carry out, and we confirm the price before we begin.`,
   },
   {
-    question: "How quickly can you arrive in an emergency?",
-    answer: `For urgent drainage issues, we aim to arrive within 60-90 minutes across ${BRAND.serviceAreaLabel}, traffic and weather permitting.`,
+    question: "How quickly can you reach a Stockport address in an emergency?",
+    answer: `Our engineers are based locally, so we typically arrive within 60 to 90 minutes anywhere across ${BRAND.serviceAreaLabel}. Response times may vary slightly during heavy traffic on the A6 or M60, but we always prioritise genuine emergencies.`,
   },
   {
-    question: "Are you available for emergencies?",
-    answer: `Yes, we offer 24/7 emergency drainage services across ${BRAND.serviceAreaLabel}. Call ${BRAND.phoneFormatted} for immediate assistance.`,
+    question: "Are you available outside normal working hours?",
+    answer: `Yes, we operate a genuine 24/7 emergency service covering Stockport, Cheadle, Bramhall, Hazel Grove, Marple and the surrounding Cheshire area. Call ${BRAND.phoneFormatted} any time, day or night.`,
   },
   {
-    question: "How much does drain unblocking cost?",
-    answer: "Costs depend on access, blockage severity, and whether repairs are needed. We give a clear fixed quote before work starts, so you know exactly what you're paying for.",
+    question: "How much does it cost to unblock a drain in Stockport?",
+    answer: "The price depends on the severity and location of the blockage, as well as access conditions. We always provide a clear, fixed quote before starting work so there are no unexpected charges. Most straightforward domestic blockages are resolved at a competitive flat rate.",
   },
   {
-    question: "What is included in your service visit?",
-    answer: "A standard visit includes problem diagnosis, access checks, blockage clearance where possible, and practical aftercare advice to help prevent repeat issues.",
+    question: "What does a standard service visit include?",
+    answer: "Every visit includes a thorough diagnosis of the problem, a check of access points and manholes, clearance of the blockage where possible, and practical advice on preventing future issues. If we spot a deeper structural concern, we will explain your options honestly.",
   },
   {
-    question: "Do you work with landlords and commercial properties?",
-    answer: "Yes. We support homeowners, landlords, letting agents, and businesses, including restaurants, offices, retail units, and managed properties.",
+    question: "Do you work with landlords and businesses in the Stockport area?",
+    answer: "Absolutely. We support homeowners, landlords, letting agents and commercial clients across Stockport and Cheshire, including restaurants along the A6, offices in the town centre, retail units in Merseyway, and managed residential blocks.",
   },
   {
-    question: "Do you provide a guarantee on your work?",
-    answer: "Yes, all our work is fully guaranteed. We stand behind the quality of our service and workmanship.",
+    question: "Is your work guaranteed?",
+    answer: "Yes. All drainage work carried out by our engineers is fully guaranteed. If a problem we have resolved returns within the guarantee period, we come back at no additional cost.",
   },
 ];
 
@@ -121,36 +121,36 @@ export function getLocationFAQs(locationName: string): FAQ[] {
 
 export const PAGE_FAQS: FAQ[] = [
   {
-    question: "How quickly can you respond to an emergency callout?",
-    answer: 'We aim to respond to <a href="/services/emergency-drain-services/" class="text-primary hover:underline">emergency drainage callouts</a> within 60-90 minutes across <a href="/locations/stockport/" class="text-primary hover:underline">Stockport</a> and surrounding areas. Our team operates around the clock, so help is available whenever you need it, day or night.'
+    question: "How quickly can you respond to an emergency in the Stockport area?",
+    answer: 'Our engineers are based locally, so we typically reach addresses across <a href="/locations/stockport/" class="text-primary hover:underline">Stockport</a>, Cheadle, Bramhall and the wider Cheshire area within 60 to 90 minutes. Our <a href="/services/emergency-drain-services/" class="text-primary hover:underline">emergency drainage team</a> operates around the clock, including bank holidays.'
   },
   {
-    question: "Do you charge a call-out fee?",
-    answer: "No, we do not charge a call-out fee. You only pay for the work that is carried out. We provide a clear quote before starting any job, so there are no unexpected costs."
+    question: "Is there a call-out charge?",
+    answer: "There is no call-out fee at all. We provide a fixed, written quote before any work begins, so you know exactly what you will pay. If you decide not to proceed, you owe us nothing."
   },
   {
-    question: "What locations do you cover?",
-    answer: 'We provide plumbing and drainage services throughout <a href="/locations/stockport/" class="text-primary hover:underline">Stockport</a> and surrounding areas within 20 miles, including <a href="/locations/manchester/" class="text-primary hover:underline">Manchester</a>, <a href="/locations/salford/" class="text-primary hover:underline">Salford</a>, <a href="/locations/altrincham/" class="text-primary hover:underline">Altrincham</a>, Bolton, Oldham, Rochdale, Sale, Didsbury, and Chorlton. See <a href="/locations/" class="text-primary hover:underline">all locations we cover</a>.'
+    question: "Which parts of Stockport and Cheshire do you serve?",
+    answer: 'We cover the whole of <a href="/locations/stockport/" class="text-primary hover:underline">Stockport</a> borough plus surrounding towns within roughly 20 miles, including Cheadle, Bramhall, Hazel Grove, Marple, Reddish, Edgeley, <a href="/locations/manchester/" class="text-primary hover:underline">Manchester</a>, <a href="/locations/salford/" class="text-primary hover:underline">Salford</a>, and <a href="/locations/altrincham/" class="text-primary hover:underline">Altrincham</a>. See <a href="/locations/" class="text-primary hover:underline">all locations we cover</a>.'
   },
   {
-    question: "What payment methods do you accept?",
-    answer: "We accept cash, debit and credit card payments, and bank transfers. Payment is typically collected upon completion of the work."
+    question: "How do I pay for the work?",
+    answer: "We accept cash, debit and credit cards (including contactless), and bank transfers. Payment is collected once the job is finished and you are satisfied with the result."
   },
   {
-    question: "Can you help with commercial drainage problems?",
-    answer: 'Yes, we offer drainage services for both residential and commercial properties. Whether you manage a shop, office, restaurant, or industrial premises, we can assist with <a href="/services/blocked-drains/" class="text-primary hover:underline">blockages</a>, <a href="/services/drain-repairs/" class="text-primary hover:underline">repairs</a>, and maintenance including <a href="/services/drain-jetting/commercial-jetting/" class="text-primary hover:underline">commercial drain jetting</a>.'
+    question: "Do you handle drainage problems for businesses in Stockport?",
+    answer: 'Yes. We work with restaurants, cafes and takeaways along the A6, offices in Stockport town centre, retail units in the Merseyway centre, and industrial premises throughout Cheshire. Services include <a href="/services/blocked-drains/" class="text-primary hover:underline">blockage clearance</a>, <a href="/services/drain-repairs/" class="text-primary hover:underline">pipe repairs</a>, and scheduled <a href="/services/drain-jetting/commercial-jetting/" class="text-primary hover:underline">commercial drain jetting</a> to keep kitchens and washrooms compliant.'
   },
   {
-    question: "What is a CCTV drain survey and when is it needed?",
-    answer: 'A <a href="/services/cctv-drain-surveys/" class="text-primary hover:underline">CCTV drain survey</a> uses a small camera to inspect the inside of your drainage pipes. It is useful for diagnosing recurring blockages, identifying damage or cracks, and providing a clear picture of the condition of your drains before purchasing a property. We also offer specialist <a href="/services/cctv-drain-surveys/pre-purchase-survey/" class="text-primary hover:underline">pre-purchase drain surveys</a> for homebuyers.'
+    question: "When should I book a CCTV drain survey?",
+    answer: 'A <a href="/services/cctv-drain-surveys/" class="text-primary hover:underline">CCTV drain survey</a> is recommended whenever you experience recurring blockages, are buying a property (especially older Stockport housing with Victorian clay pipes), or need evidence for an insurance claim. We also offer dedicated <a href="/services/cctv-drain-surveys/pre-purchase-survey/" class="text-primary hover:underline">pre-purchase surveys</a> tailored for homebuyers.'
   },
   {
-    question: "How can I prevent blocked drains?",
-    answer: 'Avoid pouring cooking oils and fats down the sink, use drain guards to catch hair and debris, and dispose of items like wet wipes and sanitary products in the bin rather than flushing them. Regular maintenance including <a href="/services/drain-jetting/" class="text-primary hover:underline">drain jetting</a> can also help keep your drains clear. Read our <a href="/blog/prevent-blocked-drains-kitchen/" class="text-primary hover:underline">guide to preventing kitchen drain blockages</a> for more tips.'
+    question: "What can I do to reduce the risk of blocked drains?",
+    answer: 'Avoid putting fats, oils and grease down your kitchen sink, fit mesh strainers over plugholes, and never flush wet wipes or sanitary items. Periodic professional <a href="/services/drain-jetting/" class="text-primary hover:underline">drain jetting</a> removes buildup before it causes a blockage. Our <a href="/blog/prevent-blocked-drains-kitchen/" class="text-primary hover:underline">kitchen drain maintenance guide</a> covers this in detail.'
   },
   {
-    question: "Are your engineers qualified and insured?",
-    answer: 'Yes, all our engineers are fully trained and experienced in drainage work. We are also fully insured, giving you peace of mind that your property is protected while we carry out the work. Learn more <a href="/about/" class="text-primary hover:underline">about our team</a>.'
+    question: "Are your engineers insured and experienced?",
+    answer: 'Every engineer on our team is fully insured, trained in the latest drainage techniques, and equipped with professional-grade tools. We have extensive experience working with the varied pipework found across Stockport, from Victorian clay to modern PVC. Find out more <a href="/about/" class="text-primary hover:underline">about our team</a>.'
   }
 ];
 
