@@ -86,24 +86,14 @@ const ogImage = image ? `${siteUrl}${image}` : defaultOgImage;
         }
       } catch (e) {}
     </script>
-    <!-- TODO: Add site-specific Google Analytics ID for stockportplumbercheshire.co.uk -->
-    <!--
+    <!-- Google Analytics (GA4) -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-XC3NK705K0"></script>
     <script is:inline>
-      function loadGTM() {
-        var s = document.createElement('script');
-        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX';
-        s.async = true;
-        document.head.appendChild(s);
-        gtag('js', new Date());
-        gtag('config', 'G-XXXXXXXXXX');
-      }
-      if (typeof requestIdleCallback === 'function') {
-        requestIdleCallback(loadGTM, { timeout: 3000 });
-      } else {
-        setTimeout(loadGTM, 2000);
-      }
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XC3NK705K0');
     </script>
-    -->
   </head>
   <body class="min-h-screen flex flex-col">
     <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:bg-white focus:text-primary focus:px-4 focus:py-2 focus:rounded focus:shadow-lg focus:font-semibold">Skip to content</a>
